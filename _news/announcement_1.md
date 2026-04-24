@@ -1,8 +1,10 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2026-04-24 09:00:00+0900
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+**IDMM Lab officially launched** at the School of Mechanical Engineering, 
+Soongsil University. We are actively recruiting graduate students and 
+undergraduate researchers — see [Join Us](/people/#join-us).
