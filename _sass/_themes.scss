@@ -221,13 +221,24 @@ body.layout-about .post,
   border-radius: 4px;
 }
 
-// Thrust 1 (Generative AI for Design) — push the figure slightly past
-// the card-body padding so the diagram reads larger than the others.
+// Thrust 1 (Generative AI for Design) — extend the figure past the
+// card and the page container all the way out to the viewport edges,
+// then add a min-height so wide-but-short source images do not read
+// as visually short.
 #thrust1-detail .thrust-detail-img {
-  width: calc(100% + 2.5rem);
-  max-width: calc(100% + 2.5rem);
-  margin-left: -1.25rem;
-  margin-right: -1.25rem;
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  min-height: 380px;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+@media (max-width: 575px) {
+  #thrust1-detail .thrust-detail-img {
+    min-height: 220px;
+  }
 }
 
 // Publications page preview thumbnails — al-folio renders the image
