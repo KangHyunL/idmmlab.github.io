@@ -6,6 +6,12 @@
 %   `html` and `abstract` to be present and non-empty; leaving them as empty
 %   strings ({}) breaks the build. Use a placeholder URL / blurb if real
 %   metadata is unavailable.
+% - `preview` accepts a URL (must contain "://") that renders as a thumbnail
+%   next to the entry. We use placehold.co with the journal abbreviation as
+%   a placeholder; replace with real journal cover images when available.
+% - `note` is rendered on its own line under the journal/year and is used
+%   here to surface impact-factor / JCR ranking info (and authorship notes
+%   like corresponding-author / equal-contribution where applicable).
 % - Mark the most representative work with selected={true} so it appears on
 %   the home page under "Selected Publications".
 % -----------------------------------------------------------------------------
@@ -24,6 +30,8 @@
   abbr      = {CMAME},
   html      = {https://www.sciencedirect.com/journal/computer-methods-in-applied-mechanics-and-engineering},
   pdf       = {},
+  preview   = {https://placehold.co/300x300/1E3A8A/FFFFFF.png?text=CMAME},
+  note      = {<strong>IF 7.3</strong> &middot; <strong>JCR Top 2.6%</strong> &middot; Mathematics &amp; Interdisciplinary Applications},
   abstract  = {Latent-diffusion and score-distillation framework for 2D-to-3D microstructure reconstruction and generation.}
 }
 
@@ -41,6 +49,8 @@
   abbr      = {CMAME},
   html      = {https://www.sciencedirect.com/journal/computer-methods-in-applied-mechanics-and-engineering},
   pdf       = {},
+  preview   = {https://placehold.co/300x300/1E3A8A/FFFFFF.png?text=CMAME},
+  note      = {<strong>IF 7.3</strong> &middot; <strong>JCR Top 2.6%</strong> &middot; Mathematics &amp; Interdisciplinary Applications},
   abstract  = {Denoising diffusion model that synthesizes 3D anisotropic microstructures from 2D micrographs.}
 }
 
@@ -58,6 +68,8 @@
   abbr      = {EAAI},
   html      = {https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence},
   pdf       = {},
+  preview   = {https://placehold.co/300x300/1E3A8A/FFFFFF.png?text=EAAI},
+  note      = {<strong>IF 7.5</strong> &middot; <strong>JCR Top 2.5%</strong> &middot; Engineering &amp; Multidisciplinary},
   abstract  = {Diffusion-based generative framework for designing multifunctional composite microstructures.}
 }
 
@@ -75,6 +87,8 @@
   abbr      = {npj CM},
   html      = {https://www.nature.com/npjcompumats/},
   pdf       = {},
+  preview   = {https://placehold.co/300x300/1E3A8A/FFFFFF.png?text=npj+CM},
+  note      = {<strong>IF 11.9</strong> &middot; <strong>JCR Top 9.7%</strong> &middot; Materials Science &amp; Multidisciplinary},
   abstract  = {Multi-plane diffusion approach for 2D-to-3D microstructure reconstruction with harmonized sampling.}
 }
 
@@ -92,6 +106,8 @@
   abbr      = {OLT},
   html      = {https://www.sciencedirect.com/journal/optics-and-laser-technology},
   pdf       = {},
+  preview   = {https://placehold.co/300x300/1E3A8A/FFFFFF.png?text=OLT},
+  note      = {<strong>IF 4.6</strong> &middot; <strong>JCR Top 17.2%</strong> &middot; Optics},
   abstract  = {3D-CNN defect detection using in-situ monitoring data from laser powder bed fusion.}
 }
 
@@ -109,6 +125,8 @@
   abbr      = {Addit. Manuf.},
   html      = {https://www.sciencedirect.com/journal/additive-manufacturing},
   pdf       = {},
+  preview   = {https://placehold.co/300x300/1E3A8A/FFFFFF.png?text=Addit+Manuf},
+  note      = {<strong>IF 11.0</strong> &middot; <strong>JCR Top 9%</strong> &middot; Engineering &amp; Manufacturing},
   abstract  = {Design optimization of thermally conductive supports for laser powder-bed fusion using part-scale thermal history.}
 }
 
@@ -126,6 +144,8 @@
   abbr      = {Addit. Manuf.},
   html      = {https://www.sciencedirect.com/journal/additive-manufacturing},
   pdf       = {},
+  preview   = {https://placehold.co/300x300/1E3A8A/FFFFFF.png?text=Addit+Manuf},
+  note      = {<strong>IF 10.998</strong> &middot; <strong>JCR Top 1%</strong> &middot; Engineering &amp; Manufacturing},
   abstract  = {Heat source model for melt pool evolution in selective laser melting.}
 }
 
@@ -143,6 +163,8 @@
   abbr      = {ACHM},
   html      = {https://link.springer.com/journal/42114},
   pdf       = {},
+  preview   = {https://placehold.co/300x300/1E3A8A/FFFFFF.png?text=ACHM},
+  note      = {<strong>IF 21.8</strong> &middot; <strong>JCR Top 1.5%</strong> &middot; Materials Science &amp; Composites &middot; Lee, K.-H. (corresponding author)},
   abstract  = {Cement composites enhanced with carbon nanotube and hollow glass microsphere hybrid clusters.}
 }
 
@@ -160,6 +182,7 @@
   abbr      = {JMP},
   html      = {https://www.sciencedirect.com/journal/journal-of-manufacturing-processes},
   pdf       = {},
+  preview   = {https://placehold.co/300x300/1E3A8A/FFFFFF.png?text=JMP},
   abstract  = {XGBoost-based multiscale heat source modeling for solid-state phase transformation in Ti-6Al-4V AM.}
 }
 
@@ -177,6 +200,7 @@
   abbr      = {JMP},
   html      = {https://www.sciencedirect.com/journal/journal-of-manufacturing-processes},
   pdf       = {},
+  preview   = {https://placehold.co/300x300/1E3A8A/FFFFFF.png?text=JMP},
   abstract  = {Probabilistic process-window framework for laser powder bed fusion of 25CrMo4 via uncertainty quantification.}
 }
 
@@ -194,6 +218,7 @@
   abbr      = {J. Energy Storage},
   html      = {https://www.sciencedirect.com/journal/journal-of-energy-storage},
   pdf       = {},
+  preview   = {https://placehold.co/300x300/1E3A8A/FFFFFF.png?text=J+Energy+Storage},
   abstract  = {DFT and ML study of orbital dependence of single-metal sites for lithium-sulfur batteries.}
 }
 
@@ -211,6 +236,7 @@
   abbr      = {MAMS},
   html      = {https://www.tandfonline.com/journals/umcm20},
   pdf       = {},
+  preview   = {https://placehold.co/300x300/1E3A8A/FFFFFF.png?text=MAMS},
   abstract  = {Diffusion-based generative models for microstructure reconstruction.}
 }
 
@@ -228,6 +254,7 @@
   abbr      = {CMC},
   html      = {https://www.techscience.com/cmc},
   pdf       = {},
+  preview   = {https://placehold.co/300x300/1E3A8A/FFFFFF.png?text=CMC},
   abstract  = {Phase-field and consolidation modeling of melt pool and residual stress in SLM re-melting.}
 }
 
@@ -245,6 +272,7 @@
   abbr      = {AASS},
   html      = {http://www.techno-press.org/?journal=aas},
   pdf       = {},
+  preview   = {https://placehold.co/300x300/1E3A8A/FFFFFF.png?text=AASS},
   abstract  = {Temperature-thread multiscale FE simulation framework for selective laser melting.}
 }
 
@@ -262,6 +290,8 @@
   abbr      = {MAMS},
   html      = {https://www.tandfonline.com/journals/umcm20},
   pdf       = {},
+  preview   = {https://placehold.co/300x300/1E3A8A/FFFFFF.png?text=MAMS},
+  note      = {Lee, K.-H. (equal contribution)},
   abstract  = {Denoising diffusion probabilistic model for performance-based design of 2D gas diffusion layers.}
 }
 
@@ -279,6 +309,7 @@
   abbr      = {JIMSS},
   html      = {https://journals.sagepub.com/home/jim},
   pdf       = {},
+  preview   = {https://placehold.co/300x300/1E3A8A/FFFFFF.png?text=JIMSS},
   abstract  = {MR-elastomer-based variable-stiffness flexible coupling for torsional vibration reduction.}
 }
 
@@ -296,6 +327,7 @@
   abbr      = {AASS},
   html      = {http://www.techno-press.org/?journal=aas},
   pdf       = {},
+  preview   = {https://placehold.co/300x300/1E3A8A/FFFFFF.png?text=AASS},
   abstract  = {Computational ablative thermal response analysis of carbon and phenolic composites.}
 }
 
@@ -313,5 +345,6 @@
   abbr      = {JMST},
   html      = {https://link.springer.com/journal/12206},
   pdf       = {},
+  preview   = {https://placehold.co/300x300/1E3A8A/FFFFFF.png?text=JMST},
   abstract  = {Fully computational prediction of melt pool generation in directed energy deposition.}
 }
