@@ -221,6 +221,15 @@ body.layout-about .post,
   border-radius: 4px;
 }
 
+// Thrust 1 (Generative AI for Design) — push the figure slightly past
+// the card-body padding so the diagram reads larger than the others.
+#thrust1-detail .thrust-detail-img {
+  width: calc(100% + 2.5rem);
+  max-width: calc(100% + 2.5rem);
+  margin-left: -1.25rem;
+  margin-right: -1.25rem;
+}
+
 // Publications page preview thumbnails — al-folio renders the image
 // at the BibTeX `preview` URL inside the `.col.abbr` cell, directly
 // under the journal-abbreviation badge. Match the image width to the
