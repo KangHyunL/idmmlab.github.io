@@ -37,7 +37,7 @@ nav_order: 2
         <h3 style="margin-top: 0;">Kang-Hyun Lee, Ph.D.</h3>
         <p>Assistant Professor, School of Mechanical Engineering, Soongsil University</p>
         <p>
-          📧 <a href="mailto:kanghyun.lee@ssu.ac.kr">kanghyun.lee@ssu.ac.kr</a>
+          📧 <a href="mailto:kanghl@ssu.ac.kr">kanghl@ssu.ac.kr</a>
           &nbsp;·&nbsp;
           <a href="https://www.linkedin.com/in/kang-hyun-lee-125b17206/" target="_blank" rel="noopener" title="LinkedIn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
         </p>

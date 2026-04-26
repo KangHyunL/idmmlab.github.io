@@ -53,4 +53,4 @@ Send the above to the PI email below.
 
 **Address.** School of Mechanical Engineering, Soongsil University, 369 Sangdo-ro, Dongjak-gu, Seoul 06978, Republic of Korea
 
-**PI Email.** [kanghyun.lee@ssu.ac.kr](mailto:kanghyun.lee@ssu.ac.kr)
+**PI Email.** [kanghl@ssu.ac.kr](mailto:kanghl@ssu.ac.kr)
