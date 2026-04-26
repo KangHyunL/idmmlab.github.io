@@ -225,10 +225,10 @@ body.layout-about .post,
 // than the card body width, keeping its natural aspect ratio (no
 // min-height, no object-fit cropping). Centered.
 #thrust1-detail .thrust-detail-img {
-  width: 85%;
-  max-width: 85%;
+  width: calc(100% + 4rem);
+  max-width: calc(100% + 4rem);
   height: auto;
-  margin: 0 auto 1rem auto;
+  margin: 0 -2rem 1rem -2rem;
   object-fit: initial;
   border-radius: 4px;
 }
@@ -237,6 +237,7 @@ body.layout-about .post,
   #thrust1-detail .thrust-detail-img {
     width: 100%;
     max-width: 100%;
+    margin: 0 auto 1rem auto;
   }
 }
 
