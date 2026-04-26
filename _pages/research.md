@@ -2,78 +2,73 @@
 layout: page
 title: Research
 permalink: /research/
-description: Our work spans three intertwined research directions.
+description: AI-driven design, multiphysics modeling, and digital engineering for advanced manufacturing.
 nav: true
 nav_order: 3
 ---
 
-The IDMM Lab develops computational frameworks that connect **design**,
-**physics**, and **manufacturing**. We treat the manufacturing process
-as a first-class design variable: rather than designing a part and
-then figuring out how to build it, we co-design the geometry, the
-material, and the process together. Our work spans three intertwined
-directions.
+We pursue three tightly coupled research thrusts. Each one is useful on its own, but the lab's distinctive contribution lies at their intersection: design methods that are simultaneously **generative**, **physically grounded**, and **manufacturable**.
 
 ---
 
-## 1. Generative Design for Engineering Systems
+## Thrust 1 — Generative AI for Design
 
-Modern engineering systems — from aerospace structures to
-high-performance heat exchangers — live in design spaces far too
-large for human intuition alone. We develop **generative models**
-(diffusion models, GFlowNets, and physics-informed generative
-networks) that propose novel geometries and microstructures
-satisfying multiple physical and manufacturing constraints at once.
+**Overview.** We build generative models — diffusion, autoregressive, and graph-based — that learn from physics simulations and existing designs to propose new geometries, lattice topologies, and material distributions. Unlike pure shape generation, our outputs are conditioned on engineering targets (stiffness, weight, manufacturability) and on process constraints.
 
-**Current questions we are asking:**
-- How do we embed manufacturing constraints directly into generative
-  priors, so the model proposes *makeable* designs from the start?
-- How do we combine generative design with multi-fidelity physics
-  evaluators to accelerate candidate screening?
-- How do we expose the trade-off frontier (weight vs. stiffness vs.
-  buildability) as a navigable design space, not a single point?
+**Key topics.**
+
+- Conditional generative models for parts and lattices
+- Inverse design under multi-objective performance targets
+- Manufacturability-aware generation (build orientation, overhangs, support, residual stress)
+- Learned design representations (implicit fields, graphs, voxels)
+
+**Representative projects.** *(Coming soon — placeholder for ongoing work.)*
 
 ---
 
-## 2. Advanced Manufacturing — Metal Additive Manufacturing
+## Thrust 2 — Multiphysics & Multiscale Modeling
 
-Metal additive manufacturing (AM) is enormously capable and
-enormously temperamental. Melt-pool dynamics, residual stress,
-microstructure evolution, and part-scale distortion are all coupled
-across many orders of length and time scale. We build **process-aware
-models** of metal AM that capture this coupling, and use them to
-qualify, control, and optimize builds.
+**Overview.** We develop and use multiphysics simulations — thermal, mechanical, microstructural — for materials and manufacturing processes, with an emphasis on metal additive manufacturing. We are especially interested in surrogate-model-friendly simulations: ones structured so that machine learning can absorb their behavior and reuse it during design.
 
-**Current directions:**
-- Data-driven surrogates for melt-pool and microstructure prediction,
-  trained on high-fidelity CFD and phase-field simulations.
-- Process parameter optimization for quality, productivity, and
-  sustainability under uncertainty.
-- Design-for-AM: feedback loops between generative design and
-  process qualification.
+**Key topics.**
+
+- Process–structure–property modeling for metal AM
+- Multiscale simulation linking microstructure to component performance
+- Surrogate and reduced-order models for design-time use
+- Uncertainty quantification across scales
+
+**Representative projects.** *(Coming soon — placeholder for ongoing work.)*
 
 ---
 
-## 3. Multiphysics Simulation &amp; Digital Twins
+## Thrust 3 — Digital Engineering for Advanced Manufacturing
 
-Simulation is only useful when it is fast, trusted, and connected to
-the real process. We develop **multiscale, multiphysics simulation
-frameworks** — thermal, mechanical, metallurgical — and couple them
-with learned surrogates to form **digital twins** of manufacturing
-processes. Our twins support predictive quality, closed-loop control,
-and what-if exploration for process engineers.
+**Overview.** We build digital infrastructure — digital twins, automation pipelines, and data layers — that lets generative models and simulations talk to real manufacturing processes. The aim is reusable engineering software, not one-off scripts: shared representations of geometry, process, and material that survive across projects.
 
-**Current directions:**
-- Hybrid models that combine first-principles physics with learned
-  components (residual learning, operator networks).
-- Online assimilation of sensor data (thermal imaging, acoustic
-  monitoring) into the digital twin.
-- Uncertainty quantification and reliability for safety-critical
-  AM parts.
+**Key topics.**
+
+- Digital twins of additive and hybrid manufacturing processes
+- Design automation pipelines (CAD ↔ simulation ↔ ML)
+- Process-aware data infrastructure for AM
+- Closed-loop design–simulate–manufacture workflows
+
+**Representative projects.** *(Coming soon — placeholder for ongoing work.)*
 
 ---
 
-## Funding &amp; Collaborators
+## Featured Research Topics
 
-*This section will list active grants and academic / industrial
-collaborators as projects come online.*
+A short list of concrete topics the lab is actively interested in. These are intentionally narrower than the thrusts and meant to give prospective students a tangible sense of what they could work on.
+
+- **Generative design of lightweight aerospace components** — diffusion / flow-based models conditioned on stiffness, weight, and AM process constraints.
+- **Process–structure–property surrogates for metal AM** — fast, differentiable surrogates trained from multiphysics simulations, usable inside design loops.
+- **Inverse design of mechanical metamaterials** — learning lattice/microstructure families with target macroscopic responses.
+- **Digital twins for additive manufacturing** — process-aware representations linking sensor data, simulation, and as-built geometry.
+- **Manufacturability-aware generative models** — generative pipelines that produce designs with build-orientation, support, and residual-stress considerations baked in.
+- **Scientific ML for multiphysics** — operator learning and physics-informed approaches for thermal/mechanical fields in manufacturing.
+
+---
+
+## Funding & Collaborators
+
+*This section will list active grants and academic / industrial collaborators as projects come online.*

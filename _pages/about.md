@@ -4,7 +4,7 @@ title: Home
 permalink: /
 nav: true
 nav_order: 1
-subtitle: <strong>I</strong>ntelligent <strong>D</strong>esign for <strong>M</strong>aterials &amp; <strong>M</strong>anufacturing Lab · School of Mechanical Engineering, Soongsil University
+subtitle: AI-driven design and digital engineering for materials, parts, and advanced manufacturing systems.
 
 profile:
   align: right
@@ -29,64 +29,32 @@ latest_posts:
   enabled: false
 ---
 
-## Welcome to IDMM Lab
+**Generative AI** · **Multiphysics Modeling** · **Digital Twins** · **Design Automation** · **Advanced Manufacturing**
 
-We are the **Intelligent Design for Materials &amp; Manufacturing (IDMM) Lab**
-in the [School of Mechanical Engineering](https://me.ssu.ac.kr) at
-[Soongsil University](https://ssu.ac.kr), directed by
-[Prof. Kang-Hyun Lee](#principal-investigator).
+The **Intelligent Design for Materials & Manufacturing (IDMM) Lab** at Soongsil University builds computational methods that connect generative AI, multiphysics modeling, and digital engineering. We design materials, parts, and manufacturing processes that are difficult to design by hand — and we build the digital infrastructure that makes those methods reusable across problems.
 
-Our research lies at the intersection of **generative design** and
-**advanced manufacturing**, aiming to unlock the full potential of
-manufacturing processes and expand the design space for next-generation
-engineered systems. We build AI-driven frameworks that couple data,
-physics, and design — from the material microstructure up to the
-manufactured part.
+Our work cuts across three thrusts — *Generative AI for Design*, *Multiphysics & Multiscale Modeling*, and *Digital Engineering for Advanced Manufacturing* — with an application focus on metal additive manufacturing, lightweight structural components, and mechanical metamaterials.
+
+We work closely with researchers in mechanical engineering, aerospace engineering, materials science, and applied machine learning, and we welcome students who enjoy living at the boundary between physics, computation, and hardware.
 
 ---
 
-## Research Directions
+## Research Thrusts
 
-We work along three intertwined axes:
+**Generative AI for Design.** Generative models that propose feasible, manufacturable, performance-driven designs for parts and material microstructures. We focus on representations (implicit / mesh / graph), conditional generation under physical constraints, and inverse design where the target is a performance specification rather than a shape.
 
-- **Generative Design for Engineering Systems.** Generative AI and
-  inverse design methods that explore vast design spaces under
-  physical and manufacturing constraints.
-- **Advanced Manufacturing (Metal AM).** Process-aware modeling and
-  optimization of metal additive manufacturing, from melt-pool physics
-  to part-scale qualification.
-- **Multiphysics Simulation &amp; Digital Twins.** Multiscale and
-  multiphysics simulation coupled with learned surrogates, enabling
-  real-time digital twins of manufacturing processes.
+**Multiphysics & Multiscale Modeling.** Physics-based simulation that bridges scales — from microstructure evolution and process physics, up to component-level mechanical and thermal performance. Our emphasis is on simulations that are *fast enough to learn from* and *accurate enough to trust*, so they can be coupled with data-driven design.
 
-See the [Research](/research/) page for details, and [Publications](/publications/) for our recent work.
+**Digital Engineering for Advanced Manufacturing.** Digital twins, design automation, and end-to-end pipelines that connect CAD/representation, simulation, and manufacturing data. The goal is to turn ad-hoc engineering workflows into reusable, queryable, and improvable digital infrastructure — particularly for metal AM and other advanced manufacturing processes.
 
----
-
-## Principal Investigator
-
-**Kang-Hyun Lee, Ph.D.** — Assistant Professor, School of Mechanical
-Engineering, Soongsil University.
-
-Prior to joining Soongsil University, Prof. Lee was a Postdoctoral
-Associate in the Department of Mechanical Engineering at the
-Massachusetts Institute of Technology, where he contributed to a
-DARPA-funded project on **generative artificial intelligence for the
-design and manufacturing of reusable rocket components**. He received
-his Ph.D. and M.S. from the Department of Aerospace Engineering at
-Seoul National University, with a research focus on **multiphysics and
-multiscale simulation of metal additive manufacturing processes**.
-
-Full bio and contact on the [People](/people/) page.
+See the [Research]({{ '/research/' | relative_url }}) page for details, and [Publications]({{ '/publications/' | relative_url }}) for our recent work.
 
 ---
 
 ## Join Us
 
-We are actively recruiting motivated **graduate students** (M.S. / Ph.D.)
-and **undergraduate researchers** interested in generative design,
-additive manufacturing, and physics-based machine learning. If you want
-to work at the intersection of AI and mechanical engineering, please
-reach out via email with your CV and a short note on your interests.
+We are a new lab and we are recruiting. If you are a graduate student or undergraduate researcher interested in working at the intersection of AI, physics, and manufacturing, please see the [Join Us]({{ '/join/' | relative_url }}) page.
 
-📧 **kanghyun.lee@ssu.ac.kr**
+---
+
+<small>숭실대학교 기계공학과 IDMM 연구실은 생성형 AI, 멀티피직스 모델링, 디지털 엔지니어링을 결합하여 재료·부품·첨단 제조 시스템을 설계하는 계산 방법론을 연구합니다. 새로 시작하는 연구실로, 함께할 학생을 모집하고 있습니다.</small>

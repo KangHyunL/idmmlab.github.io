@@ -2,19 +2,21 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: "Intelligent Design for Materials & Manufacturing Lab" # the website title (used as navbar brand and home page H1)
+first_name: Kang-Hyun
+middle_name: ""
+last_name: Lee
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  The best way to reach the lab is by email. See the Join Us page for what to send if you are a prospective student.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  IDMM Lab — AI-driven design and digital engineering for materials, parts, and advanced manufacturing systems.
+  School of Mechanical Engineering, Soongsil University.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  IDMM Lab, School of Mechanical Engineering, Soongsil University.
+  Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> on the
+  <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: generative AI, multiphysics modeling, digital twin, design automation, advanced manufacturing, metal additive manufacturing, IDMM Lab, Soongsil University
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
