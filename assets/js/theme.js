@@ -298,13 +298,17 @@ let initTheme = () => {
 
   setThemeSetting(themeSetting);
 
-  // Add event listener to the theme toggle button.
+  // Add event listener to the theme toggle button. The toggle is hidden when
+  // site.enable_darkmode is false (IDMM Lab default), so guard against a
+  // missing element rather than throwing.
   document.addEventListener("DOMContentLoaded", function () {
     const mode_toggle = document.getElementById("light-toggle");
 
-    mode_toggle.addEventListener("click", function () {
-      toggleThemeSetting();
-    });
+    if (mode_toggle) {
+      mode_toggle.addEventListener("click", function () {
+        toggleThemeSetting();
+      });
+    }
   });
 
   // Add event listener to the system theme preference change.
