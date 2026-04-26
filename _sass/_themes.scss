@@ -209,6 +209,17 @@ body.layout-about .post,
   font-size: 0.75rem;
 }
 
+// Image rendered inside the expanded "Show details" pane on Research
+// thrust cards. Full-width inside the body, with rounded corners and a
+// modest gap below before the Overview paragraph.
+.thrust-detail-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 1rem auto;
+  border-radius: 4px;
+}
+
 // Publications page preview thumbnails — al-folio renders the image
 // at the BibTeX `preview` URL inside the `.col.abbr` cell, directly
 // under the journal-abbreviation badge. Match the image width to the

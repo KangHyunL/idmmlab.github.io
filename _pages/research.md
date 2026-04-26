@@ -26,6 +26,7 @@ We pursue three tightly coupled research thrusts. Each one is useful on its own,
     </div>
     <div class="collapse" id="thrust1-detail">
       <div class="card-body border-top">
+        <img src="{{ '/assets/img/GenAI_design.png' | relative_url }}" alt="Generative AI for Design" class="thrust-detail-img">
         <p><strong>Overview.</strong> We build generative models — diffusion, autoregressive, and graph-based — that learn from physics simulations and existing designs to propose new geometries, lattice topologies, and material distributions. Unlike pure shape generation, our outputs are conditioned on engineering targets (stiffness, weight, manufacturability) and on process constraints.</p>
         <p class="mb-2"><strong>Key topics.</strong></p>
         <ul class="mb-0">
@@ -53,6 +54,7 @@ We pursue three tightly coupled research thrusts. Each one is useful on its own,
     </div>
     <div class="collapse" id="thrust2-detail">
       <div class="card-body border-top">
+        <img src="{{ '/assets/img/PSP.gif' | relative_url }}" alt="Multiphysics & multiscale modeling — PSP linkages" class="thrust-detail-img">
         <p><strong>Overview.</strong> We develop and use multiphysics simulations — thermal, mechanical, microstructural — for materials and manufacturing processes, with an emphasis on metal additive manufacturing. We are especially interested in surrogate-model-friendly simulations, structured so that machine learning can absorb their behavior and reuse it during design.</p>
         <p class="mb-2"><strong>Key topics.</strong></p>
         <ul class="mb-0">
