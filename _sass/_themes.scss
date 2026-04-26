@@ -204,6 +204,21 @@ html[data-theme="dark"] {
   font-size: 0.75rem;
 }
 
+// Publications page preview thumbnails — al-folio renders the image
+// at the BibTeX `preview` URL inside a 2-col Bootstrap cell. Without a
+// constraint the 300x300 placehold.co images overflow into the title
+// column, so cap them to the column width and a fixed pixel height.
+.publications .preview,
+.col.abbr .preview {
+  width: 100% !important;
+  max-width: 110px;
+  height: auto !important;
+  max-height: 110px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
 // Team page sub-tab navigation (Advisor / Students / Alumni). Keep the
 // tabs subtle so they read as section dividers rather than a primary
 // nav element.
