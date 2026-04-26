@@ -39,11 +39,12 @@ _data/members.yml).
     <p>
       Kang-Hyun Lee is an Assistant Professor in the School of Mechanical
       Engineering at Soongsil University. Prior to joining Soongsil University,
-      he worked as a Postdoctoral Associate in the Department of Mechanical
-      Engineering at the Massachusetts Institute of Technology, where he
-      contributed to a DARPA-funded research project on developing generative
-      artificial intelligence for the design and manufacturing of reusable
-      rocket components. He received his Ph.D. and M.S. from the Department of
+      he worked as a Postdoctoral Associate in the
+      <a href="https://decode.mit.edu/" target="_blank" rel="noopener">DeCoDE Lab</a>
+      in the Department of Mechanical Engineering at the Massachusetts
+      Institute of Technology, where he contributed to a DARPA-funded research
+      project on developing generative artificial intelligence for the design
+      and manufacturing of reusable rocket components. He received his Ph.D. and M.S. from the Department of
       Aerospace Engineering at Seoul National University, with a research focus
       on multiphysics and multiscale simulation of additive manufacturing
       processes. His current research lies at the intersection of generative
