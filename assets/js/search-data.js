@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/idmmlab.github.io/";
     },
-  },{id: "nav-team",
+  },{id: "nav-home",
+          title: "Home",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/idmmlab.github.io/";
+          },
+        },{id: "nav-team",
           title: "Team",
           description: "Members of the IDMM Lab.",
           section: "Navigation",
