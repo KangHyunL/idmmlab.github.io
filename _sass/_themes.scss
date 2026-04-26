@@ -155,3 +155,79 @@ html[data-theme="dark"] {
 .toggle-container {
   display: none !important;
 }
+
+// IDMM Lab logo on the navbar (white-on-navy). Always visible, including
+// on the home page. The image lives in assets/img/IDMM_logo_white.png.
+.navbar .idmm-brand {
+  padding: 0.25rem 0;
+  margin-right: 1rem;
+}
+
+.navbar .idmm-logo {
+  height: 36px;
+  width: auto;
+  display: block;
+}
+
+// Home hero logo (full-color IDMM_logo.png) shown at the top-right of
+// the home page body, above the keyword chip line.
+.home-hero-logo {
+  float: right;
+  max-width: 180px;
+  height: auto;
+  margin: 0 0 1rem 1.5rem;
+}
+
+@media (max-width: 575px) {
+  .home-hero-logo {
+    float: none;
+    display: block;
+    max-width: 140px;
+    margin: 0 auto 1rem auto;
+  }
+}
+
+// Research thrust card header — tighten the colored band so it scales
+// with the title text instead of forcing a tall 200px gradient block.
+.thrust-card .thrust-card-img {
+  height: auto !important;
+  min-height: 0 !important;
+  padding: 1rem 1.25rem;
+}
+
+.thrust-card .thrust-card-img h3 {
+  font-size: 1.35rem;
+  line-height: 1.25;
+}
+
+.thrust-card .thrust-card-img small {
+  font-size: 0.75rem;
+}
+
+// Team page sub-tab navigation (Advisor / Students / Alumni). Keep the
+// tabs subtle so they read as section dividers rather than a primary
+// nav element.
+.team-tabs.nav-tabs {
+  border-bottom: 1px solid var(--global-divider-color);
+  margin-bottom: 1.5rem;
+}
+
+.team-tabs .nav-link {
+  color: var(--global-text-color-light);
+  border: none;
+  border-bottom: 2px solid transparent;
+  padding: 0.6rem 1rem;
+  font-weight: 500;
+}
+
+.team-tabs .nav-link:hover {
+  color: var(--global-theme-color);
+  border-bottom-color: var(--global-divider-color);
+  background-color: transparent;
+}
+
+.team-tabs .nav-link.active {
+  color: var(--global-theme-color);
+  border-bottom-color: var(--global-theme-color);
+  background-color: transparent;
+}
