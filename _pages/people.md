@@ -22,7 +22,7 @@ _data/members.yml).
     {%
       include figure.liquid
       loading="eager"
-      path="assets/img/prof_pic.jpg"
+      path="assets/img/members/PI_Kanghyun.png"
       class="img-fluid rounded"
       alt="Kang-Hyun Lee"
       cache_bust=true
@@ -32,7 +32,11 @@ _data/members.yml).
     <h3 style="margin-top: 0;">Kang-Hyun Lee, Ph.D.</h3>
     <p><em>Assistant Professor, School of Mechanical Engineering</em><br>
     Soongsil University</p>
-    <p>📧 <a href="mailto:kanghyun.lee@ssu.ac.kr">kanghyun.lee@ssu.ac.kr</a></p>
+    <p>
+      📧 <a href="mailto:kanghyun.lee@ssu.ac.kr">kanghyun.lee@ssu.ac.kr</a>
+      &nbsp;·&nbsp;
+      <a href="https://www.linkedin.com/in/kang-hyun-lee-125b17206/" target="_blank" rel="noopener" title="LinkedIn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+    </p>
     <p>
       Prior to joining Soongsil University, Dr. Lee was a Postdoctoral
       Associate in the Department of Mechanical Engineering at MIT, where he
