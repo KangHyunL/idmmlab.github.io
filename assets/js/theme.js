@@ -270,32 +270,17 @@ let transTheme = () => {
   }, 500);
 };
 
-// Determine the expected state of the theme toggle, which can be "dark", "light", or
-// "system". IDMM Lab default is "light" — first-time visitors see the light theme
-// regardless of OS preference. Users who pick dark or system via the toggle still
-// have their choice persisted in localStorage.
+// IDMM Lab uses a single light theme. Force "light" everywhere,
+// ignoring any localStorage value (including "dark" or "system" left
+// behind from earlier visits) and any OS-level prefers-color-scheme
+// setting. The dark/light toggle is hidden via CSS, so users have no
+// way to opt back in.
 let determineThemeSetting = () => {
-  let themeSetting = localStorage.getItem("theme");
-  if (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") {
-    themeSetting = "light";
-  }
-  return themeSetting;
+  return "light";
 };
 
-// Determine the computed theme, which can be "dark" or "light". If the theme setting is
-// "system", the computed theme is determined based on the user's system preference.
 let determineComputedTheme = () => {
-  let themeSetting = determineThemeSetting();
-  if (themeSetting == "system") {
-    const userPref = window.matchMedia;
-    if (userPref && userPref("(prefers-color-scheme: dark)").matches) {
-      return "dark";
-    } else {
-      return "light";
-    }
-  } else {
-    return themeSetting;
-  }
+  return "light";
 };
 
 let initTheme = () => {
