@@ -210,14 +210,21 @@ body.layout-about .post,
 }
 
 // Image rendered inside the expanded "Show details" pane on Research
-// thrust cards. Full-width inside the body, with rounded corners and a
-// modest gap below before the Overview paragraph.
+// thrust cards. Cap to a comfortable reading size (well under the card
+// width) and center it; full-card-width was reading as oversized.
 .thrust-detail-img {
   display: block;
   width: 100%;
+  max-width: 480px;
   height: auto;
   margin: 0 auto 1rem auto;
   border-radius: 4px;
+}
+
+@media (max-width: 575px) {
+  .thrust-detail-img {
+    max-width: 100%;
+  }
 }
 
 // Publications page preview thumbnails — al-folio renders the image
