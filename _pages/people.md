@@ -2,7 +2,7 @@
 layout: page
 permalink: /team/
 title: Team
-description: Members of the IDMM Lab.
+description: Members of the IDMM Lab (지능형 소재 및 제조 설계 연구실).
 nav: true
 nav_order: 2
 ---

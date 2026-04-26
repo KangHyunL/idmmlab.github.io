@@ -9,7 +9,7 @@ description: Open positions for graduate students and undergraduate researchers,
 
 ## Open Positions
 
-The IDMM Lab is recruiting graduate students (M.S. and Ph.D.) and undergraduate research interns interested in AI-driven design, multiphysics simulation (FEM, FVM), and advanced manufacturing.
+The IDMM Lab (지능형 소재 및 제조 설계 연구실) is recruiting graduate students (M.S. and Ph.D.) and undergraduate research interns interested in AI-driven design, multiphysics simulation (FEM, FVM), and advanced manufacturing.
 
 **Recruiting topics.**
 
