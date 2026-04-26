@@ -30,26 +30,40 @@ _data/members.yml).
   </div>
   <div class="col-sm-9">
     <h3 style="margin-top: 0;">Kang-Hyun Lee, Ph.D.</h3>
-    <p><em>Assistant Professor, School of Mechanical Engineering</em><br>
-    Soongsil University</p>
+    <p>Assistant Professor, School of Mechanical Engineering, Soongsil University</p>
     <p>
       📧 <a href="mailto:kanghyun.lee@ssu.ac.kr">kanghyun.lee@ssu.ac.kr</a>
       &nbsp;·&nbsp;
       <a href="https://www.linkedin.com/in/kang-hyun-lee-125b17206/" target="_blank" rel="noopener" title="LinkedIn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
     </p>
     <p>
-      Prior to joining Soongsil University, Dr. Lee was a Postdoctoral
-      Associate in the Department of Mechanical Engineering at MIT, where he
-      worked on a DARPA project applying generative AI to the design and
-      manufacturing of reusable rocket components. He received his Ph.D. and
-      M.S. in Aerospace Engineering from Seoul National University, with a
-      dissertation on multiphysics and multiscale simulation of metal additive
-      manufacturing. His current research interests are generative design,
-      multiphysics simulation, and digital engineering for advanced
-      manufacturing.
+      Kang-Hyun Lee is an Assistant Professor in the School of Mechanical
+      Engineering at Soongsil University. Prior to joining Soongsil University,
+      he worked as a Postdoctoral Associate in the Department of Mechanical
+      Engineering at the Massachusetts Institute of Technology, where he
+      contributed to a DARPA-funded research project on developing generative
+      artificial intelligence for the design and manufacturing of reusable
+      rocket components. He received his Ph.D. and M.S. from the Department of
+      Aerospace Engineering at Seoul National University, with a research focus
+      on multiphysics and multiscale simulation of additive manufacturing
+      processes. His current research lies at the intersection of generative
+      design and advanced manufacturing, aiming to unlock the full potential of
+      manufacturing processes and expand the design space for next-generation
+      engineered systems.
     </p>
   </div>
 </div>
+
+#### Invited Talks
+
+1. **Invited Presentation**, Materials Research Society (MRS) Fall Meeting, 2025.
+   *Multiobjective Inverse Design of Compositionally Graded Blisks for Reusable Turbomachinery Using Physics-Guided Diffusion Models.*
+2. **Invited Seminar**, Air Force Research Laboratory (AFRL), Materials and Manufacturing Directorate (RX Division), 2025.
+   *Exploring Microstructure Design Spaces with Denoising Diffusion Models.*
+3. **Invited Talk** (Early Career Researcher), Korean Society for Aeronautical and Space Sciences (KSAS) Workshop, 2025.
+   *Multiphysics Modeling for PSP Linkages in Metal Additive Manufacturing.*
+4. **Invited Talk**, Korea Institute of Machinery and Materials (KIMM), Department of 3D Printing, 2024.
+   *Multiscale and Multiphysics Simulation of Metal Additive Manufacturing Process.*
 
 ---
 
