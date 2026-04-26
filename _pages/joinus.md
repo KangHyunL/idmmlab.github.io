@@ -9,7 +9,7 @@ description: Open positions for graduate students and undergraduate researchers,
 
 ## Open Positions (English)
 
-We are actively recruiting motivated graduate students (M.S. and Ph.D.) and undergraduate researchers interested in AI-driven design, multiphysics simulation, and advanced manufacturing. You do **not** need to have done all three; we expect students to grow into the intersection. A strong background in *one* of (a) machine learning / scientific computing, (b) mechanics or materials, or (c) manufacturing / CAD / simulation is a good starting point.
+We are actively recruiting motivated graduate students (M.S. and Ph.D.) and undergraduate researchers interested in AI-driven design, multiphysics simulation, and advanced manufacturing. You do **not** need to have done all three; we expect students to grow into the intersection. A strong background in **one** of (a) machine learning / scientific computing, (b) mechanics or materials, or (c) manufacturing / CAD / simulation is a good starting point.
 
 **What we look for.** Curiosity about the physics behind manufacturing, willingness to write real code, and the patience to debug simulations and models that do not work the first time. Prior research experience is helpful but not required.
 
@@ -17,7 +17,7 @@ We are actively recruiting motivated graduate students (M.S. and Ph.D.) and unde
 
 1. A short CV (one or two pages is fine).
 2. A short paragraph (a few sentences is enough) describing what you would like to work on and why.
-3. *(Optional)* Links or PDFs of any prior project, paper, or code you would like us to look at.
+3. (Optional) Links or PDFs of any prior project, paper, or code you would like us to look at.
 
 Send the above to the lab email listed below.
 
@@ -33,7 +33,7 @@ Send the above to the lab email listed below.
 
 1. 짧은 CV (1~2 페이지면 충분합니다).
 2. 어떤 주제를 왜 하고 싶은지 짧은 단락 (몇 문장이면 충분합니다).
-3. *(선택)* 보여주고 싶은 이전 프로젝트, 논문, 또는 코드 링크/PDF.
+3. (선택) 보여주고 싶은 이전 프로젝트, 논문, 또는 코드 링크/PDF.
 
 위 자료를 아래 연구실 이메일로 보내주시면 됩니다.
 
