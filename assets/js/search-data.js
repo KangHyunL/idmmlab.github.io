@@ -425,7 +425,7 @@ ninja.data = [{
           section: "News",},{id: "news-idmm-lab-officially-launched-at-the-school-of-mechanical-engineering-soongsil-university-we-are-actively-recruiting-graduate-students-and-undergraduate-researchers-see-join-us",
           title: 'IDMM Lab officially launched at the School of Mechanical Engineering, Soongsil University. We...',
           description: "",
-          section: "News",},{id: "news-our-paper-modeling-the-hierarchical-microstructure-of-l-pbf-ti-6al-4v-a-multiphysics-framework-for-texture-induced-mechanical-anisotropy-has-been-accepted-in-virtual-and-physical-prototyping-if-8-8-jcr-top-10-engineering-amp-amp-manufacturing-virtual-and-physical-prototyping-if-8-8-jcr-상위-10-sci-논문-게재-승인",
+          section: "News",},{id: "news-our-paper-modeling-the-hierarchical-microstructure-of-l-pbf-ti-6al-4v-a-multiphysics-framework-for-texture-induced-mechanical-anisotropy-has-been-accepted-in-virtual-and-physical-prototyping-if-8-8-jcr-top-10-engineering-amp-amp-manufacturing-virtual-and-physical-prototyping-if-8-8-jcr-상위-10-sci-논문-accepted",
           title: 'Our paper “Modeling the hierarchical microstructure of L-PBF Ti-6Al-4V: a multiphysics framework for...',
           description: "",
           section: "News",},{id: "projects-project-1",
